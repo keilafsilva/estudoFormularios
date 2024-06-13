@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pedir Comida Online</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Pedir Comida Online</h1>
+    <form>
+      <div>
+        <label for="fNome">Nome:</label><br />
+        <input
+          type="text"
+          id="fNome"
+          name="nome"
+          placeholder="Seu nome aqui"
+          required
+        />
+      </div>
+      <div>
+        <label for="fendereco">Endereço:</label><br />
+        <input
+          type="text"
+          id="fendereco"
+          placeholder="Seu endereço aqui"
+          required
+        />
+      </div>
+      <div>
+        <label for="ftelefone">Telefone: </label><br />
+        <input
+          type="tel"
+          id="ftelefone"
+          name="telefone"
+          placeholder="Seu telefone pessoal"
+          required
+        />
+      </div>
+      <div>
+        <label for="ftipoComida">Tipo de Comida:</label><br />
+        <select id="ftipoComida" name="tipoComida" required>
+          <option disabled selected value="">Selecione uma opção</option>
+          <option>Pizza</option>
+          <option>Hamburguer</option>
+          <option>Sushi</option>
+        </select>
+      </div>
+      <div>
+        <label>Observações:</label><br />
+        <textarea
+          id="fdescricao"
+          name="descricao"
+          placeholder="Digite aqui seus comentários adicionais..."
+          required
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+    <div>
+      <button>
+        <a href="agendamentoDeConsultaMedica.html">Próximo formulário</a>
+      </button>
+
+    </div>
+    <div>
+      <button><a href="enquete.html">Formulário Anterior</a></button>
+  </div>
+  <div>
+    <button><a href="index.html">Home</a></button>
+    <div>
+  </body>
+</html>

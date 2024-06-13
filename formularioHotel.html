@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Formulário de Reserva de Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <h1>Reserva de Hotel</h1>
+    <form>
+        <div>
+            <label for="fnome">Nome:</label><br>
+            <input type="text" id="fnome" name="nome" placeholder="Seu nome aqui" required />
+        </div>
+
+        <div>
+            <label for="femail">E-mail:</label><br>
+            <input type="email" id="femail" name="email" placeholder="Seu E-mail aqui" required>
+        </div>
+
+        <div>
+            <label for="checkin">Data de check-in:</label><br>
+            <input type="date" id="checkin" min="2024-06-12" max="2026-06-12" name="checkin" required>
+
+        </div>
+
+        <div>
+            <label for="fcheckout">Data de check-out:</label><br>
+            <input type="date" id="fcheckout" name="checkout" required>
+            <div>
+
+                <label for="fquarto">Tipo de quarto:</label><br>
+                <select id="fquarto" name="quarto" required>
+                    <option disabled selected value="">Selecione uma opção</option>
+                    <option>Solteiro</option>
+                    <option>Casal</option>
+                    <option>Família</option>
+                    <option>Luxo</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Comentários adicionais:</label><br>
+                <textarea id="fdescricao" name="descricao" placeholder="Digite aqui seus comentários adicionais..."
+                    required></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+    </form>
+
+    <div>
+        <button><a href="enquete.html">Próximo formulário</a></button>
+    </div>
+    <div>
+    
+        <div>
+            <button><a href="index.html">Home</a></button>
+            <div>
+
+</body>
+
+</html>
